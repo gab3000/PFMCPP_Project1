@@ -59,85 +59,85 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       keyboard
+//  action 1:   the keyboard emmits sound
+keyboard.emmitSound();
+//  action 2:   the keyboard send midi notes
+keyboard.sendMidiNote();
+//  action 3:   the keyboard send program change
+keyboard.sendProgramChange(); 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       synthModule
+//  action 1:   the synthModule sends midi clock
+synthModule.sendMidiClock();
+//  action 2:   the synthModule blinks the led
+synthModule.blinkLed();
+//  action 3:   the synthModule displays patch number
+synthModule.displayPatchNumber(); 
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       guitar
+//  action 1:   the guitar emmit sound
+guitar.emmitSound();
+//  action 2:   the guitar detunes
+guitar.detune();
+//  action 3:   the guitar resonates
+guitar.resonate(); 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       microphone
+//  action 1:   the microphone sends a signal
+microphone.sendSignal();
+//  action 2:   the microphone sends noise
+microphone.sendNoise();
+//  action 3:   the microphone pad the signal 10dB
+microphone.pad10db();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       preamp
+//  action 1:   the preamp amplifies the signal
+preamp.amplifySignal();
+//  action 2:   the preamp switches polarity
+preamp.switchPolarity();
+//  action 3:   the preamp adapt impedance
+preamp.adaptImpedance();
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       guitarAmp
+//  action 1:   guitar amplifier generates Sound
+guitarAmp.generatesSound();
+//  action 2:   guitar amplifier adds reverb
+guitarAmp.addReverb();
+//  action 3:   guitar amp generates heat
+guitarAmp.generateHeat();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:   overdrive pedal
+//  action 1:   the overdrive pedal distorts the signal
+overdrivePedal.distortSignal();
+//  action 2:   the overdrive pedal adds noise
+overdrivePedal.addNoise();
+//  action 3:   the overdrive pedal depletes the battery
+overdrivePedal.depleteBattery();
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       midi router
+//  action 1:   the midi router filters program changes 
+midiRouter.filterProgramChange();
+//  action 2:   the midi router changes midi channel
+midiRouter.changeMidiChannel();
+//  action 3:   the midi router store a patch
+midiRouter.storePatch();
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       DAW
+//  action 1:   the daw plays midi sequence
+daw.playMidi();
+//  action 2:   the daw displays a message
+daw.displayMessage();
+//  action 3:   the daw auto saves project
+daw.autoSaveProject();
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       plugin
+//  action 1:   the plugin updates gui
+plugin.udateGui();
+//  action 2:   the plugin stores configuration
+plugin.storeConfiguration();
+//  action 3:   the plugin generates audio data
+plugin.generateAudioData();
 
 
 #endif

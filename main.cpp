@@ -133,7 +133,7 @@ daw.autoSaveProject();
 //  10)
 //  Noun:       plugin
 //  action 1:   the plugin updates gui
-plugin.udateGui();
+plugin.updateGui();
 //  action 2:   the plugin stores configuration
 plugin.storeConfiguration();
 //  action 3:   the plugin generates audio data
